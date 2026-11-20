@@ -174,7 +174,7 @@ Slip screenshots only produce **drafts**. Each one opens in the editor for you t
 
 ## 6. Build & run
 
-Prerequisites: Flutter 3.50.1 (stable), JDK 17+, Android SDK (platform 36, build-tools 36).
+Prerequisites: Flutter 3.50.1 (stable), JDK 21 (Android lint in AGP 9 needs it), Android SDK (platform 36, build-tools 36).
 
 ```bash
 flutter pub get
