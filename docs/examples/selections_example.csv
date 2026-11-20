@@ -1,0 +1,3 @@
+home,away,league,country,kickoff,market_type,pick,side,line,odds,odds_source,odds_updated_at,origin
+EXAMPLE Home FC,EXAMPLE Away FC,Example League,Exampleland,2030-01-05 18:00,overUnderGoals,under,,3.5,1.40,Example bookmaker,2030-01-05 10:00,synthetic
+EXAMPLE City,EXAMPLE Town,Example League,Exampleland,2030-01-06 15:00,handicap,,home,-0.5,1.95,Example bookmaker,2030-01-06 09:00,synthetic

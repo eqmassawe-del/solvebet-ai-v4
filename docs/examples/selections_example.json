@@ -1,0 +1,36 @@
+{
+  "_comment": "FORMAT EXAMPLE ONLY. Team names are placeholders and every record is marked origin=synthetic, so the engine will always REJECT it. Replace with real, verified data before use.",
+  "selections": [
+    {
+      "home": "EXAMPLE Home FC",
+      "away": "EXAMPLE Away FC",
+      "league": "Example League",
+      "country": "Exampleland",
+      "kickoff": "2030-01-05 18:00",
+      "market": {"type": "anyTeam3InARow", "pick": "no"},
+      "odds": 1.35,
+      "odds_source": "Example bookmaker",
+      "odds_updated_at": "2030-01-05 10:00",
+      "origin": "synthetic",
+      "home_history": [
+        {"date": "2029-12-28", "home": "EXAMPLE Home FC", "away": "EXAMPLE Opp 1", "competition": "Example League",
+         "ft": "2-1", "ht": "1-0", "goals": "12H,55A,80H", "corners": "6-4", "reds": "0-0", "source": "where you verified it", "origin": "synthetic"}
+      ],
+      "away_history": [
+        {"date": "2029-12-27", "home": "EXAMPLE Opp 2", "away": "EXAMPLE Away FC", "ft": "0-0", "goals": "-", "reds": "0-1", "comparable": false, "origin": "synthetic"}
+      ]
+    },
+    {
+      "home": "EXAMPLE City",
+      "away": "EXAMPLE Town",
+      "league": "Example League",
+      "kickoff": "2030-01-06T15:00:00+03:00",
+      "market": {"type": "custom", "name": "Example market", "win_condition": "Exact rule for a WIN", "fail_condition": "Exact event that makes it LOSE"},
+      "odds": 1.9,
+      "origin": "synthetic",
+      "home_history": [
+        {"date": "2029-12-30", "home": "EXAMPLE City", "away": "EXAMPLE Opp 3", "ft": "1-1", "market_result": "win", "origin": "synthetic"}
+      ]
+    }
+  ]
+}

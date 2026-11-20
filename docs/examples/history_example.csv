@@ -1,0 +1,3 @@
+team_role,date,home,away,competition,ft,ht,goals,corners,reds,comparable,source,origin
+home,2029-12-28,EXAMPLE Home FC,EXAMPLE Opp 1,Example League,2-1,1-0,12H;55A;80H,6-4,0-0,true,verified source,synthetic
+away,2029-12-27,EXAMPLE Opp 2,EXAMPLE Away FC,Example League,0-0,0-0,-,3-5,0-1,true,verified source,synthetic
